@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: bisque;
+  border: 3px solid black;
+  box-shadow: 0 9px rgb(234, 209, 178);
+}
+
+button:active {
+  background-color: bisque;
+  box-shadow: 0 3px rgb(194, 174, 149);
+  transform: translateY(4px);
+}
